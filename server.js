@@ -33,9 +33,9 @@ connection.connect();
 
 server.route({
     method: 'GET',
-    path: '/helloworld',
+    path: '/',
     handler: function (request, reply) {
-        return reply('hello world');
+        return reply('root');
     }
 
 });
